@@ -1,0 +1,40 @@
+/* pages/content/content.wxss */
+.content-img{
+  width: 100%;
+}
+.content-title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 16pt;
+  padding: 30rpx;
+  background: #fafafa;
+  font-weight: 200;
+  margin-bottom: 30rpx;
+}
+.desc{
+  font-size: 12pt;
+  color: #424242;
+}
+.content-text{
+  padding: 1em;
+}
+.pick{
+  position: absolute;
+  right: 30rpx;
+  bottom: 50rpx;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #e42323;
+  color: #fff;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.eit{
+  margin-top: 30rpx;
+  color: #ccc;
+  font-size: 10pt;
+}

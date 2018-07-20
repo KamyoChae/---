@@ -1,0 +1,10 @@
+<view class='content'>
+  <image class='content-img' src='{{img}}' mode='aspectFit'></image>
+  <view class='content-title'>{{title}}</view>
+  <view class='content-text'>
+    <text class='desc'>{{desc}}</text>
+    <view class='desc eit'>原链接：{{link}}(该链接广告过多，体验不好，故不做跳转)</view>
+  </view>
+
+  <view class='pick' bindtap='pickOther'>biu</view>
+</view>
