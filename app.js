@@ -1,7 +1,7 @@
 //app.js
 App({
-  appid: '70308', // 你的appid
-  sign: 'ca20a0100abea1913b4266c1a19d27ca', // 你的密钥
+  appid: '22222', // 你的appid
+  sign: 'a01a66c1a1919ca2d200abe7013b42ca', // 你的密钥
   myType: "mj", 
   page: "1",
   post:[],
