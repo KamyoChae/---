@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo}}" mode="aspectFill"></image>
+  </view>
+  <view class="usermotto" bindtap='getList'>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+
+<view class='mune-view' bindtap='getEvent'>
+
+  <view class='menu'>
+    <view class='dp' id='dp'>
+      <image id='dp' class='menu-image' src='../../images/01.png' mode='aspectFill'></image>
+      <text id='dp'>短篇</text>
+    </view>
+    <view class='cp' id='cp'>
+      <image id='cp' class='menu-image' src='../../images/02.png' mode='aspectFill'></image>
+      <text id='cp'>长篇</text>
+    </view>
+    <view class='xy' id='xy'>
+      <image id='xy' class='menu-image' src='../../images/03.png' mode='aspectFill'></image>
+      <text id='xy'>校园</text>
+    </view>
+    <view class='yy' id='yy'>
+      <image id='yy' class='menu-image' src='../../images/04.png' mode='aspectFill'></image>
+      <text id='yy'>医院</text>
+    </view>
+  </view>
+
+  <view class='menu'>
+    <view class='jl' id='jl'>
+      <image id='jl' class='menu-image' src='../../images/42.png' mode='aspectFill'></image>
+      <text id='jl'>家里</text>
+    </view>
+    <view class='mj' id='mj'>
+      <image id='mj' class='menu-image' src='../../images/06.png' mode='aspectFill'></image>
+      <text id='mj'>民间</text>
+    </view>
+    <view class='ly' id='ly'>
+      <image id='ly' class='menu-image' src='../../images/09.png' mode='aspectFill'></image>
+      <text id='ly'>灵异</text>
+    </view>
+    <view class='yc' id='yc'>
+      <image id='yc' class='menu-image' src='../../images/36.png' mode='aspectFill'></image>
+      <text id='yc'>原创</text>
+    </view>
+  </view>
+
+</view>
