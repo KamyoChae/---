@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 {
   "pages":[
-    "pages/index/index",
-    "pages/content/content",
-    "pages/logs/logs"
+    "page/index/index",
+    "page/content/content",
+    "page/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -15,9 +15,9 @@
 =======
 {
   "pages":[
-    "pages/index/index",
-    "pages/content/content",
-    "pages/logs/logs"
+    "page/index/index",
+    "page/content/content",
+    "page/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
