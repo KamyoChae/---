@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     contentPage: null,
@@ -30,15 +29,6 @@ Page({
   },
   render: function(index) {
     var that = this
-
-    /*
-    var img = this.data.img,
-      desc = this.data.desc,
-      title = this.data.title,
-      link = this.data.link;
-
-      */
-
     this.setData({
       img: that.contentList[index].img,
       desc: that.contentList[index].desc,
@@ -53,7 +43,6 @@ Page({
     console.log(this.data.num)
     console.log(111)
     if (this.data.num == 8) {
-
       this.data.num = 0;
       app.getList()
       this.getProterty()
