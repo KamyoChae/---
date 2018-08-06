@@ -2,39 +2,33 @@
 .container{
   padding: 30rpx;
 }
-
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .userinfo-avatar {
   width: 180rpx;
   height: 180rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
-
 .usermotto {
   margin: 10rpx;
   color: #424242;
   font-size: 14pt;
   font-weight: 200;
 }
-
 .mune-view {
   padding-top: 50rpx;
   box-sizing: border-box;
   border-top: 30rpx solid #e42323;
 }
-
 .menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .menu view {
   display: flex;
   flex-direction: column;
@@ -44,12 +38,10 @@
   height: 100%;
   padding: 20rpx 0;
 }
-
 .menu-image {
   width: 120rpx;
   height: 120rpx;
 }
-
 .menu view text {
   font-size: 12pt;
   margin-top: 30rpx;
